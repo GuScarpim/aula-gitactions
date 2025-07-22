@@ -5,5 +5,5 @@ import App from './App';
 
 test('renders title', () => {
   render(<App />);
-  expect(screen.getByText("aaaaasda")).toBeInTheDocument();
+  expect(screen.getByText(/Vite \+ React/i)).toBeInTheDocument();
 });
